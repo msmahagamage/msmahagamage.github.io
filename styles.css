@@ -1,0 +1,281 @@
+/* Basic styling for the entire website */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Center the main content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+
+/* --- Education Section Specifics --- */
+.education-entry {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 1px solid #333;
+    border-radius: 8px;
+}
+
+.entry-header {
+    display: flex;
+    align-items: center; 
+}
+
+
+.entry-header .logo {
+    width: 65px;
+    height: 65px;
+    margin-right: 20px;
+}
+
+.header-text h4, .header-text h5 {
+    margin: 0;
+}
+
+.entry-body {
+    padding-top: 15px;
+    margin-top: 15px;
+    border-top: 1px solid #333030; 
+}
+
+.meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    color: #0c0c0c;
+    margin-bottom: 15px;
+}
+
+/* --- Publications Section Specifics --- */
+.publication-entry {
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.publication-details {
+    flex-grow: 1; 
+}
+
+.publication-details h4 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 1.1em;
+}
+
+.publication-details .authors {
+    margin: 0 0 5px 0;
+    font-size: 0.95em;
+    color: #555;
+}
+
+.publication-details .journal {
+    margin: 0;
+    font-size: 0.9em;
+    color: #777;
+}
+
+.publication-year {
+    flex-shrink: 0; 
+    padding-left: 20px;
+    font-weight: bold;
+    color: #333;
+    font-size: 1.1em;
+}
+
+/* --- Google Scholar Button --- */
+.scholar-link-container {
+    text-align: center; 
+    margin-bottom: 40px; 
+}
+
+.scholar-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #12d640; 
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.scholar-button:hover {
+    background-color: #10b338; 
+    transform: translateY(-2px); 
+}
+
+/* --- Teaching Section Specifics --- */
+.teaching-entry {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.teaching-entry h4, .teaching-entry h5 {
+    margin: 0;
+}
+
+.teaching-entry h5 {
+    font-weight: normal;
+    color: #555;
+    margin-top: 4px;
+    margin-bottom: 15px;
+}
+
+.teaching-entry ul {
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.teaching-entry li {
+    margin-bottom: 5px;
+}
+
+/* --- Projects Section Specifics --- */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px; 
+}
+
+.project-card {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    overflow: hidden; 
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.project-card a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+    display: block;
+}
+
+.project-info {
+    padding: 20px;
+}
+
+.project-info h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.project-info p {
+    margin: 0;
+    font-size: 0.95em;
+    color: #555;
+}
+
+/* --- Contact Section Specifics --- */
+.contact-card {
+    padding: 30px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    text-align: center;
+    max-width: 600px;
+}
+
+.contact-card p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block; 
+    text-align: left;
+}
+
+.contact-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+.contact-list .icon {
+    font-size: 1.5em;
+    margin-right: 15px;
+    width: 30px; 
+}
+
+.contact-list a {
+    text-decoration: none;
+    color: #12d640;
+    font-weight: 500;
+}
+
+.contact-list a:hover {
+    text-decoration: underline;
+}
+
+.contact-list .address {
+    line-height: 1.5;
+    color: #333;
+}
