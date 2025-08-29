@@ -1,4 +1,4 @@
-# Madusha Sammani Maha Gamage - Personal Academic Portfolio
+# Madusha Sammani Maha Gamage CV and Personal Academic Portfolio
 
 This repository contains the source code for my personal academic and professional portfolio website. 
 
