@@ -4,7 +4,7 @@ This repository contains the source code for my personal academic and profession
 
 The live version is hosted using GitHub Pages.
 
-**[View Live Site](https://madushamahagamage.github.io)**
+**[View Live Site](https://msmahagamage.github.io)**
 
 ## About This Project
 
