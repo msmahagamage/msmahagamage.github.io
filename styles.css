@@ -133,7 +133,7 @@ main {
 .scholar-button {
     display: inline-block;
     padding: 12px 24px;
-    background-color: #12d640; 
+    background-color: #d61243; 
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
@@ -278,4 +278,5 @@ main {
 .contact-list .address {
     line-height: 1.5;
     color: #333;
+
 }
