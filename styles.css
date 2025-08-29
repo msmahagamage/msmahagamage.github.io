@@ -142,7 +142,7 @@ main {
 }
 
 .scholar-button:hover {
-    background-color: #10b338; 
+    background-color: #d60f41; 
     transform: translateY(-2px); 
 }
 
@@ -280,3 +280,4 @@ main {
     color: #333;
 
 }
+
