@@ -30,6 +30,9 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #555;
 }
+nav ul li a:visited {
+    color: white; 
+}
 
 /* Center the main content */
 main {
@@ -280,4 +283,5 @@ main {
     color: #333;
 
 }
+
 
