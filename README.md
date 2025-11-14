@@ -27,5 +27,4 @@ The repository is organized into several key pages:
 * **`publications.html`**: A list of my published research with a link to Google Scholar.
 * **`teaching.html`**: Outlines my experience as a teaching assistant and lecturer.
 * **`projects.html`**: A grid-based gallery of my GIS and web mapping projects.
-* **`volunteering.html`**: A list of my volunteer work.
 * **`contact.html`**: My professional contact information.
